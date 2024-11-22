@@ -61,3 +61,10 @@ h2{
     /*width y height son ingnorados proqie los elementos
     inline no respetan esta propiedad*/
 }
+
+
+.inline-block{
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+}
