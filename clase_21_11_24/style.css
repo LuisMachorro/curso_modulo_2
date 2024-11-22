@@ -1,0 +1,55 @@
+/*Reset básico */
+
+body{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header{
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+}
+
+section{
+    /*Los valores para la propiedad border son tres separados cada uno por un espacio:display: 
+    el primero es el grosor del borde
+    el segundo es el tipo de estilo del borde
+    el tercero es el color;*/  
+    border: 3px solid #ddd;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px;
+}
+
+
+h2{
+    color: #007bff;
+}
+
+.box{
+    background-color: #e3f2fd;
+    border: 1px solid #007bff;
+    margin: 10px auto;
+    /*otra forma de centrar
+    wl valor auto en la propiedad de margin
+    hace que el navegador calcule automaticamnet
+    el espacio necesario pra centrar un elmento
+    dentro de su contenendor padra
+    siempre que elemento tenga un ancho definifod
+    
+    El */
+    padding: 10px;
+    text-align: center;/*centrar*/
+}
+
+.block{/*elementos inline no se puede aplicar o cambiar el ancho*/
+    display: block;
+    width: 150px;
+    height: 30px;
+}
