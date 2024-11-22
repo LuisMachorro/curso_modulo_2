@@ -53,3 +53,11 @@ h2{
     width: 150px;
     height: 30px;
 }
+
+.inline{
+    display: inline;
+    width: 150px;
+    height: 30px;
+    /*width y height son ingnorados proqie los elementos
+    inline no respetan esta propiedad*/
+}
